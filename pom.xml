@@ -54,6 +54,7 @@
             </exclusions>
         </dependency>
 		
+		<!-- import primefaces -->
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
