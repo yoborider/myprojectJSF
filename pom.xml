@@ -54,7 +54,7 @@
             </exclusions>
         </dependency>
 		
-		<!-- import primefaces 5.3 community -->
+		<!-- import primefaces 5.3 community mma -->
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
