@@ -6,7 +6,7 @@
     <artifactId>myprojectJSF</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>AppFuse JSF Application</name>
+    <name>AppFuse JSF Application web 2.0</name>
 
     <parent>
         <groupId>org.appfuse</groupId>
@@ -32,6 +32,9 @@
             <plugin>
                 <groupId>de.juplo</groupId>
                 <artifactId>hibernate4-maven-plugin</artifactId>
+                <configuration>
+                    <scanDependencies>none</scanDependencies>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
